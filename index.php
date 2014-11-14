@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/zerogrid.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/responsiveslides.css" />
+<link rel='stylesheet' type='text/css' href='css/video.css' />
 <script type="text/javascript" src="js/jquery-1.6.js" ></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -21,6 +22,7 @@
 <script type="text/javascript" src="js/jcarousellite.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
+<script src='js/video.js'></script>
   <!--[if lt IE 9]>
   	<script type="text/javascript" src="js/html5.js"></script>
 	<style type="text/css">
@@ -33,6 +35,7 @@
 		</div>
 	<![endif]-->
 
+
 	<script src="js/responsiveslides.js"></script>
 	<script>
 		$(function () {
@@ -44,6 +47,13 @@
 			maxwidth: 960,
 			namespace: "centered-btns"
 		  });
+		});
+
+		$(document).ready(function() {
+			$('video').videoPlayer({
+				'playerWidth' : 1,
+				'videoClass' : 'video'
+			});
 		});
 	</script>
 

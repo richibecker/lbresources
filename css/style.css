@@ -37,7 +37,7 @@ p{padding-bottom:22px}
 header{padding-top:34px; min-height: 150px;}
 #logo{display:block; margin-left:10px;}
 #menu {float:right;padding-top:15px}
-#menu li {float:left;padding-left:30px}
+#menu li {float:left;padding-left:45px}
 #menu li a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#bbb;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:79px;font-style:normal;font-weight:700}
 #menu li a span{font-size:13px;line-height:1.2em;color:#666666;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:normal}
 #menu li a:hover, #menu .active a{color:#ccb601}
@@ -64,10 +64,10 @@ header{padding-top:34px; min-height: 150px;}
 .pad_bot2{padding-bottom:40px}
 .marg_right1{margin-right:20px}
 .link1{color:#ccb601;font-style:normal}
-.testimonials{width:100%;position:relative;z-index:1;height:210px;overflow:hidden}
-#testimonials div{background:url(../images/bg_testimonials.gif) 0 bottom no-repeat #f5f5f5;padding:25px 27px 53px 29px}
+.testimonials{width:100%;position:relative;z-index:1;height:390px;overflow:hidden}
+#testimonials div{background:url(../images/bg_testimonials.gif) 0 bottom no-repeat #f5f5f5;padding:5px 5px 25px 5px}
 #testimonials span{display:block;padding:0 0 0 11px;font-style:normal}
-.testimonials li{height:210px}
+.testimonials li{height:150px}
 .up, .down{position:absolute;z-index:2;bottom:8px;right:0;width:32px;height:32px;display:block}
 .up{right:33px;background:url(../images/marker_up.png) 0 0 no-repeat}
 .down{background:url(../images/marker_down.png) 0 0 no-repeat}
