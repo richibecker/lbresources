@@ -1,4 +1,3 @@
-a = justian
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +56,7 @@ a = justian
 			});
 		});
 	</script>
-//coba edit
+
 </head>
 <body id="<?php
 			if(empty($_GET))
