@@ -58,26 +58,79 @@
 	</script>
 
 </head>
-<body id="page1">
+<body id="<?php
+			if(empty($_GET))
+			{
+				echo 'page1';
+			}
+			else if(isset($_GET[md5('news')])){
+				echo 'page2';
+			}
+			else if(isset($_GET[md5('services')])){
+				echo 'page3';
+			}
+			else if(isset($_GET[md5('products')])){
+				echo 'page4';
+			}
+			else if(isset($_GET[md5('contacts')])){
+				echo 'page5';
+			}
+			else{
+				echo 'page1';
+			}
+		?>">
+
 	<div class="body1">
 		<div class="body2">
 			<?php
+				if(!empty($_GET)){
+					echo '<div class="body5">';
+				}
 				include("header.php");
+				if(!empty($_GET)){
+					echo '</div>';
+				}
 			?>
 		</div>
 	</div>
+
+	<?php
+		if(empty($_GET)){
+	?>
+	<div class="slideshow" style="margin-top:-30px">
+		<div class="wrapper row">
+			<div class="slider">
+				<div class="rslides_container">
+					<ul class="rslides" id="slider">
+						<li><img src="images/img1.jpg" alt=""></li>
+						<li><img src="images/img2.jpg" alt=""></li>
+						<li><img src="images/img3.jpg" alt=""></li>
+						<li><img src="images/img4.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php
+		}
+	?>
+
 	<div class="body3">
 		<?php
-			if(isset($_GET[md5('news')])){
+			if(empty($_GET))
+			{
+				include("content/home.php");
+			}
+			else if(isset($_GET[md5('news')])){
 				include("content/news.php");
 			}
-			else if(isset($_GET['services'])){
+			else if(isset($_GET[md5('services')])){
 				include("content/services.php");
 			}
-			else if(isset($_GET['products'])){
+			else if(isset($_GET[md5('products')])){
 				include("content/products.php");
 			}
-			else if(isset($_GET['contacts'])){
+			else if(isset($_GET[md5('contacts')])){
 				include("content/contacts.php");
 			}
 			else{
