@@ -56,6 +56,7 @@
 			});
 		});
 	</script>
+
 </head>
 <body id="<?php
 			if(empty($_GET))
