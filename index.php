@@ -61,6 +61,7 @@
 <body id="<?php
 			if(empty($_GET))
 			{
+			
 				echo 'page1';
 			}
 			else if(isset($_GET[md5('news')])){
