@@ -1,5 +1,3 @@
-asdasdasdweqwe
-rtyrtyrtyrty
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +21,7 @@ rtyrtyrtyrty
 <script type="text/javascript" src="js/tms_presets.js"></script>
 <script type="text/javascript" src="js/jcarousellite.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src='js/video.js'></script>
   <!--[if lt IE 9]>
@@ -63,7 +62,6 @@ rtyrtyrtyrty
 <body id="<?php
 			if(empty($_GET))
 			{
-
 				echo 'page1';
 			}
 			else if(isset($_GET[md5('news')])){
@@ -89,7 +87,7 @@ rtyrtyrtyrty
 				if(!empty($_GET)){
 					echo '<div class="body5">';
 				}
-				include("header.php");
+				include("header__.php");
 				if(!empty($_GET)){
 					echo '</div>';
 				}

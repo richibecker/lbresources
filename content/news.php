@@ -22,6 +22,8 @@
 					<a href="#" class="link1">Read More</a>
 				</div>
 			</div>
+            
+            <!-- tab2 -->
 			<div class="tab-content" id="tab2">
 
 				<h5><span class="dropcap"><strong>25</strong><span>06</span></span>News Title 4</h5>
@@ -43,6 +45,8 @@
 					<a href="#" class="link1">Read More</a>
 				</div>
 			</div>
+            
+            <!-- tab3 -->
 			<div class="tab-content" id="tab3">
 				<h5><span class="dropcap"><strong>21</strong><span>06</span></span>News Title 7</h5>
 				<div class="wrapper pad_bot2">
@@ -71,4 +75,10 @@
 		</div>
 
 	</article>
+    <script type="text/javascript"> Cufon.now(); </script>
+<script>
+	$(document).ready(function() {
+		tabs.init();
+	})
+</script>
 </div>

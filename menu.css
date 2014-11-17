@@ -1,0 +1,165 @@
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+
+
+
+#nav2 ul{
+	position:absolute;
+	list-style:none;
+	text-align:center;
+	width:300px;
+
+	margin-left:-3%;
+
+	font:bold 12px 'Open Sans Condensed', sans-serif;
+	z-index:5;
+	/* This is important for the show/hide CSS animation */
+	max-height:0px;
+	overflow:hidden;
+	
+	-webkit-transition:max-height 0.4s linear;
+	-moz-transition:max-height 0.4s linear;
+	transition:max-height 0.4s linear;
+}
+
+
+#nav3 ul{
+	position:absolute;
+	list-style:none;
+	text-align:center;
+	width:180px;
+
+	margin-left:-6%;
+
+	font:bold 12px 'Open Sans Condensed', sans-serif;
+	z-index:5;
+	/* This is important for the show/hide CSS animation */
+	max-height:0px;
+	overflow:hidden;
+	
+	-webkit-transition:max-height 0.4s linear;
+	-moz-transition:max-height 0.4s linear;
+	transition:max-height 0.4s linear;
+}
+#colorNav li ul li{
+	background-color:#313131;
+	background-image:none;
+}
+
+#colorNav li ul li a{
+	padding:0px;
+	color:#fff !important;
+	text-decoration:none !important;
+	display:block;
+}
+
+#colorNav li ul li:nth-child(odd){ /* zebra stripes */
+	background-color:#363636;
+}
+
+#colorNav li ul li:hover{
+	background-color:#444;
+}
+
+#colorNav li ul li:first-child{
+	border-radius:3px 3px 0 0;
+	margin-top:25px;
+	position:relative;
+}
+
+#colorNav li ul li:first-child:before{ /* the pointer tip */
+	content:'';
+	position:absolute;
+	width:1px;
+	height:1px;
+	border:5px solid transparent;
+	border-bottom-color:#313131;
+	left:50%;
+	top:-10px;
+	margin-left:-5px;
+}
+
+#colorNav li ul li:last-child{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNav li:hover ul{
+	max-height:200px; /* Increase when adding more dropdown items */
+}
+
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+
+
+#colorNav li.green{
+	/* This is the color of the menu item */
+	background-color:#00c08b;
+	
+	/* This is the color of the icon */
+	color:#127a5d;
+}
+
+#colorNav li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNav li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNav li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNav li.purple{	background-color:#df6dc2;color:#9f3c85;}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px #111111;
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+footer h2{
+	color: #EEEEEE;
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#888;
+}
+
+footer a.tzine,a.tzine:visited{
+	color: #999999;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+footer a i{
+	color:#ccc;
+	font-style: normal;
+}
+
+footer a i b{
+	color:#c92020;
+	font-weight: normal;
+}
