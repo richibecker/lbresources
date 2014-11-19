@@ -2,15 +2,36 @@
 	The Navigation Menu
 -----------------------------*/
 
+#colorNav  > ul {float:left;padding-top:15px}
+#colorNav > ul > li {float:left;padding-left:45px}
+#colorNav > ul > li > a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#bbb;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:79px;font-style:normal;font-weight:700}
+#colorNav > ul > li > a > span{font-size:13px;line-height:1.2em;color:#666666;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:normal}
+#colorNav > ul > li > a:hover, #colorNav > ul > li .active > a{color:#ccb601; }
+#colorNav > ul > li > a:hover > span, #colorNav > ul > li .active > a > span{color:#fff; }
+#colorNav > ul > #nav1 > a{background:url(../images/menu_icon1.gif) bottom center no-repeat}
+#colorNav > ul > #nav1 > a:hover, #colorNav > ul > #nav1.active > a{background:url(../images/menu_icon1_active.gif) bottom center no-repeat}
+
+#colorNav > ul > #nav2 >  a{background:url(../images/menu_icon2.gif) bottom center no-repeat}
+#colorNav > ul > #nav2 > a:hover, #colorNav > ul > #nav2.active > a{background:url(../images/menu_icon2_active.gif) bottom center no-repeat}
 
 
-#nav2 ul{
+#colorNav > ul > #nav3 > a{background:url(../images/menu_icon3.gif) bottom center no-repeat}
+#colorNav > ul > #nav3 > a:hover, #colorNav > ul > #nav3.active > a{background:url(../images/menu_icon3_active.gif) bottom center no-repeat}
+
+
+#colorNav > ul > #nav4 > a{background:url(../images/menu_icon4.gif) bottom center no-repeat}
+#colorNav > ul > #nav4 > a:hover, #colorNav > ul > #nav4.active > a{background:url(../images/menu_icon4_active.gif) bottom center no-repeat}
+
+#colorNav > ul > #nav5 > a{background:url(../images/menu_icon5.gif) bottom center no-repeat}
+#colorNav > ul > #nav5 > a:hover,  #colorNav > ul > #nav5.active > a{background:url(../images/menu_icon5_active.gif) bottom center no-repeat}
+
+#colorNav ul li ul{
 	position:absolute;
 	list-style:none;
 	text-align:center;
 	width:300px;
 
-	margin-left:-3%;
+	margin-left:-12%;
 
 	font:bold 12px 'Open Sans Condensed', sans-serif;
 	z-index:5;
@@ -23,35 +44,17 @@
 	transition:max-height 0.4s linear;
 }
 
-
-#nav3 ul{
-	position:absolute;
-	list-style:none;
-	text-align:center;
-	width:180px;
-
-	margin-left:-6%;
-
-	font:bold 12px 'Open Sans Condensed', sans-serif;
-	z-index:5;
-	/* This is important for the show/hide CSS animation */
-	max-height:0px;
-	overflow:hidden;
-	
-	-webkit-transition:max-height 0.4s linear;
-	-moz-transition:max-height 0.4s linear;
-	transition:max-height 0.4s linear;
-}
 #colorNav li ul li{
 	background-color:#313131;
-	background-image:none;
+	
 }
 
-#colorNav li ul li a{
-	padding:0px;
+#colorNav ul li ul li a{
+	padding:10px;
 	color:#fff !important;
 	text-decoration:none !important;
 	display:block;
+
 }
 
 #colorNav li ul li:nth-child(odd){ /* zebra stripes */
