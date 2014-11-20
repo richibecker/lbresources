@@ -1,3 +1,4 @@
+<div style="background: url(images/bg-new.png); padding: 45px 40px 25px 40px; position: relative; z-index: 2;"></div>
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">

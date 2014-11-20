@@ -117,6 +117,7 @@
 	?>
 
 	<div class="body3">
+    
 		<?php
 			if(empty($_GET))
 			{
