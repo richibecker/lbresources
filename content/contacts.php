@@ -1,6 +1,8 @@
+
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">
+
 		<div class="wrapper row">
 			<section class="col-3-4">
 			<div class="wrap-col">
@@ -31,20 +33,11 @@
 			</section>
 			<section class="col-1-4">
 			<div class="wrap-col">
-				<h2 class="under">Contacts</h2>
-				<div id="address"><span>Country:<br>
-						City:<br>
-						Telephone:<br>
-						Email:</span>
-						Indonesia<br>
-						Jakarta<br>
-						021 - 1234567<br>
-						<a href="mailto:" class="color2">mail@mail.com</a></div>
 				<h2 class="under">Miscellaneous</h2>
 				<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 			</div>
 			</section>
-		</div>
 
+		</div>
 	</article>
 </div>

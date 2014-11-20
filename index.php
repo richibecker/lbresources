@@ -24,6 +24,7 @@
 <script type="text/javascript" src="js/tabs.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src='js/video.js'></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
   <!--[if lt IE 9]>
   	<script type="text/javascript" src="js/html5.js"></script>
 	<style type="text/css">
@@ -56,6 +57,19 @@
 				'videoClass' : 'video'
 			});
 		});
+
+		function initialize()
+		{
+		var mapProp = {
+		  center:new google.maps.LatLng(51.508742,-0.120850),
+		  zoom:5,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		var map=new google.maps.Map(document.getElementById("googleMap")
+		  ,mapProp);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
 
 </head>
@@ -74,6 +88,9 @@
 				echo 'page4';
 			}
 			else if(isset($_GET[md5('contacts')])){
+				echo 'page5';
+			}
+			else if(isset($_GET[md5('location')])){
 				echo 'page5';
 			}
 			else{
@@ -134,6 +151,9 @@
 			}
 			else if(isset($_GET[md5('contacts')])){
 				include("content/contacts.php");
+			}
+			else if(isset($_GET[md5('location')])){
+				include("content/location.php");
 			}
 			else{
 				include("content/home.php");
