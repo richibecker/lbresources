@@ -54,20 +54,30 @@
 			}
 			.entry-header { padding-top: 20px; background-color: #fff; position:fixed; top:0; width:100%; z-index:100; border-bottom: 1px #ebebeb solid;}
 		</style>
-<script>
-$( document ).ready(function() {
- alert('aa');
-	 $('div').scrollDown(function(){ alert('down') });
- $('div').scrollUp(function(){ alert('up') });
-});
-
+<script type='text/javascript'>
+    $(function(){
+      //Keep track of last scroll
+      var lastScroll = 0;
+      $(window).scroll(function(event){
+          //Sets the current scroll position
+          var st = $(this).scrollTop();
+          //Determines up-or-down scrolling
+          if (st > lastScroll){
+             //Replace this with your function call for downward-scrolling
+             alert("DOWN");
+          }
+          else {
+             //Replace this with your function call for upward-scrolling
+             alert("UP");
+          }
+          //Updates scroll position
+          lastScroll = st;
+      });
+    });
 </script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-       	
+
 
        	
        	<div class="main" >
