@@ -12,7 +12,6 @@
 					<li id="nav1" class="<?php if(empty($_GET)) echo 'active'; else echo '';?>"><a  href="index.php">Home<span>Welcome!</span></a>                    </li>
 
 					<li id="nav2" class="<?php if(isset($_GET[md5('news')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('news'); ?>">About<span>Get to know us</span></a>
-
                                         
                     <ul>
 						<li><a href="?<?php echo md5('news'); ?>">Profile</a></li>
@@ -28,20 +27,17 @@
 
 						<li><a href="?<?php echo md5('services'); ?>">Shipping</a></li>
 						<li><a href="?<?php echo md5('services'); ?>">Coal Mining</a></li>
+						</ul>
+                    </li>
 
-
-
-                        </ul>
-					</li>
 					<li id="nav4" class="<?php if(isset($_GET[md5('products')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('products'); ?>">Products<span>The best</span></a>
                         <ul>
+
 
 						<li><a href="?<?php echo md5('products'); ?>">Supplement</a></li>
 						<li><a href="?<?php echo md5('products'); ?>">Solar Cell</a></li>
 
-
                         </ul>
-
                     </li>
 					<li id="nav5" class="<?php if(isset($_GET[md5('contacts')]) or isset($_GET[md5('location')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('contacts'); ?>">Contacts<span>Our Address</span></a>
 						<ul>
