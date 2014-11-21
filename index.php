@@ -77,9 +77,12 @@
 			{
 				echo 'page1';
 			}
-			else if(isset($_GET[md5('news')])){
+			else if(isset($_GET[md5('news')]) /* or isset($_GET[md5('profile')])*/ ){
 				echo 'page2';
-			}
+			}	
+			else if(isset($_GET[md5('profile')])){
+				echo 'page6';
+			}				
 			else if(isset($_GET[md5('services')])){
 				echo 'page3';
 			}
@@ -136,6 +139,12 @@
 			{
 				include("content/home.php");
 			}
+			else if(isset($_GET[md5('profile')])){
+			?>
+            <iframe src="content\profile\" width="100%" height="100%" scrolling="no"></iframe>
+            <?php
+				//include("content/profile.php");
+			}			
 			else if(isset($_GET[md5('news')])){
 				include("content/news.php");
 			}

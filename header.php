@@ -11,11 +11,10 @@
 				<ul>
 					<li id="nav1" class="<?php if(empty($_GET)) echo 'active'; else echo '';?>"><a  href="index.php">Home<span>Welcome!</span></a></li>
 
-					<li id="nav2" class="<?php if(isset($_GET[md5('news')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('news'); ?>">About<span>Get to know us</span></a>
+					<li id="nav2" class="<?php if(isset($_GET[md5('profile')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('profile'); ?>">About<span>Get to know us</span></a>
 						<ul>
-							<li><a href="?<?php echo md5('news'); ?>">Profile</a></li>
+							<li><a href="?<?php echo md5('profile'); ?>" >Profile</a></li>
 							<li><a href="?<?php echo md5('news'); ?>">Portfolio</a></li>
-							<li><a href="?<?php echo md5('news'); ?>">Certificate</a></li>
 							<li><a href="?<?php echo md5('news'); ?>">News</a></li>
 						</ul>
                     </li>
