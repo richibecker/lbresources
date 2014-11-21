@@ -2,8 +2,8 @@
 	The Navigation Menu
 -----------------------------*/
 
-#colorNav  > ul {float:left;padding-top:15px}
-#colorNav > ul > li {float:left;padding-left:45px}
+#colorNav  > ul {float:right;padding-top:15px}
+#colorNav > ul > li {float:left;margin-left:35px}
 #colorNav > ul > li > a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#bbb;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:79px;font-style:normal;font-weight:700}
 #colorNav > ul > li > a > span{font-size:13px;line-height:1.2em;color:#666666;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:normal}
 #colorNav > ul > li > a:hover, #colorNav > ul > li  .active > a{color:#ccb601; }
