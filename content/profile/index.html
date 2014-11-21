@@ -12,13 +12,19 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        
         <script src="js/vendor/modernizr-2.6.2.min.js">
+
+		
         $(window).load(function() {
     // start up after 2sec no matter what
     window.setTimeout(function(){
         $('body').removeClass("loading").addClass('loaded');
     }, 0);
-});</script>
+});
+
+
+</script>
         <style type="text/css">
 			.back-link a {
 				color: #4ca340;
@@ -54,27 +60,7 @@
 			}
 			.entry-header { padding-top: 20px; background-color: #fff; position:fixed; top:0; width:100%; z-index:100; border-bottom: 1px #ebebeb solid;}
 		</style>
-<script type='text/javascript'>
-    $(function(){
-      //Keep track of last scroll
-      var lastScroll = 0;
-      $(window).scroll(function(event){
-          //Sets the current scroll position
-          var st = $(this).scrollTop();
-          //Determines up-or-down scrolling
-          if (st > lastScroll){
-             //Replace this with your function call for downward-scrolling
-             alert("DOWN");
-          }
-          else {
-             //Replace this with your function call for upward-scrolling
-             alert("UP");
-          }
-          //Updates scroll position
-          lastScroll = st;
-      });
-    });
-</script>
+
     </head>
     <body>
 
@@ -98,8 +84,28 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
             
 		    <section id="revealAnim">
 		    	<div class="section-content">
+                <!--
 		    		<div class="copy-container">
 			    		<h2>History</h2>
+<pre><code>
+2010- aaaa <br>
+2011- bbbb <br>
+2010- aaaa <br>
+2011- bbbb <br>
+</code></pre>
+		    		</div>
+                    -->
+		    		<div class="images-container">
+
+			    		<img width="100%" height="100%" class="side" src="img/history.jpg" alt="iPhone" />
+		    		</div>
+	        	</div>
+		    </section>
+                   
+		    <section id="revealAnim2">
+		    	<div class="section-content">
+		    		<div class="copy-container">
+			    		<h2>Certificate</h2>
 <pre><code>#revealAnim img {
   transition: transform .6s .9s;
 }
@@ -118,12 +124,13 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 </code></pre>
 		    		</div>
 		    		<div class="images-container">
-			    		<img class="front" src="img/img_iphone_front.png" alt="iPhone" />
-			    		<img class="back" src="img/img_iphone_back.png" alt="iPhone" />
-			    		<img class="side" src="img/img_iphone_side.png" alt="iPhone" />
+			    		<img class="front" src="img/sertifikat.jpg" alt="iPhone" />
+			    		<img class="back" src="img/sertifikat.jpg" alt="iPhone" />
+			    		<img class="side" src="img/sertifikat.jpg" alt="iPhone" />
 		    		</div>
 	        	</div>
 		    </section>
+            <!--
 		    <section id="betweenSlidesAnimStart">
 		    	<div class="section-content">
 		    		<div class="copy-container">
@@ -137,6 +144,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 		    		</div>
 	        	</div>
 		    </section>
+           
 		    <section id="betweenSlidesAnimEnd">
 		    	<div class="fake-content">
 		    		<div class="images-container">
@@ -153,7 +161,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 		    		</div>
 	        	</div>
 		    </section>
-		    
+		     -->
 		</div>
 
         <script src="js/ajax_jquery.js"></script>
