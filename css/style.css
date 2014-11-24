@@ -123,3 +123,11 @@ footer a:hover{}
 #newsletter a{float:right;width:90px;height:32px;background:#fff;line-height:32px;color:#000;font-weight:bold;text-align:center;font-style:normal;text-decoration:none}
 #newsletter a:hover{background:#ccb601;color:#fff}
 #newsletter .button{float : left;}
+
+/* ============================= detailproduct ============================= */
+.product{font-style:normal;font-family: Arial, sans-serif;}
+.leftheader{background-color:#e5d5a8;border-top:solid 1px;border-right:solid 0px;border-bottom:solid 1px;border-left:solid 1px;padding-left:10px}
+.rightheader{background-color:#e5d5a8;border-top:solid 1px;border-right:solid 1px;border-bottom:solid 1px;}
+.detail{border-left:solid 1px;border-bottom:solid 1px;border-right:solid 1px;padding-left:10px}
+.listheader{padding-left:20px;padding-bottom:5px}
+.listchild{padding-left:60px;list-style-type: circle;padding-bottom:5px}

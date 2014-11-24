@@ -79,15 +79,18 @@
 			}
 			else if(isset($_GET[md5('news')]) /* or isset($_GET[md5('profile')])*/ ){
 				echo 'page2';
-			}	
+			}
 			else if(isset($_GET[md5('profile')])){
 				echo 'page6';
-			}				
+			}
 			else if(isset($_GET[md5('services')])){
 				echo 'page3';
 			}
 			else if(isset($_GET[md5('products')])){
 				echo 'page4';
+			}
+			else if(isset($_GET[md5('detailproduct')])){
+				echo 'page5';
 			}
 			else if(isset($_GET[md5('contacts')])){
 				echo 'page5';
@@ -144,7 +147,7 @@
             <iframe src="content\profile\" width="100%" height="100%" scrolling="no"></iframe>
             <?php
 				//include("content/profile.php");
-			}			
+			}
 			else if(isset($_GET[md5('news')])){
 				include("content/news.php");
 			}
@@ -153,6 +156,9 @@
 			}
 			else if(isset($_GET[md5('products')])){
 				include("content/products.php");
+			}
+			else if(isset($_GET[md5('detailproduct')])){
+				include("content/detailproduct.php");
 			}
 			else if(isset($_GET[md5('contacts')])){
 				include("content/contacts.php");
