@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/zerogrid.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/responsiveslides.css" />
+
 <link rel='stylesheet' type='text/css' href='css/video.css' />
 <script type="text/javascript" src="js/jquery-1.6.js" ></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
@@ -22,6 +23,7 @@
 <script type="text/javascript" src="js/jcarousellite.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src='js/video.js'></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
@@ -69,6 +71,7 @@
 				}
 
 		google.maps.event.addDomListener(window, 'load', initialize);
+
 	</script>
 
 </head>
@@ -143,10 +146,7 @@
 				include("content/home.php");
 			}
 			else if(isset($_GET[md5('profile')])){
-			?>
-            <iframe src="content\profile\" width="100%" height="100%" scrolling="no"></iframe>
-            <?php
-				//include("content/profile.php");
+				include("content/profile.php");
 			}
 			else if(isset($_GET[md5('news')])){
 				include("content/news.php");
