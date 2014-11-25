@@ -3,7 +3,7 @@
 <!-- home content -->
 	<article id="content">
 			<div class="wrapper row" style="">
-				<section class="col-3-4">
+				<section class="col-full">
 					<div class="wrap-col">
 						<h2 class="under">Expertise in Execution of Businesses - Converting Plans to Reality!</h2>
 						<!--

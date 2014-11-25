@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="css/zerogrid.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/responsiveslides.css" />
-
 <link rel='stylesheet' type='text/css' href='css/video.css' />
+
 <script type="text/javascript" src="js/jquery-1.6.js" ></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -23,7 +23,7 @@
 <script type="text/javascript" src="js/jcarousellite.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
-		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src='js/video.js'></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
@@ -38,8 +38,6 @@
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>
 		</div>
 	<![endif]-->
-
-
 	<script src="js/responsiveslides.js"></script>
 	<script>
 		$(function () {
@@ -52,7 +50,6 @@
 			namespace: "centered-btns"
 		  });
 		});
-
 		$(document).ready(function() {
 			$('video').videoPlayer({
 				'playerWidth' : 1,
@@ -71,7 +68,6 @@
 				}
 
 		google.maps.event.addDomListener(window, 'load', initialize);
-
 	</script>
 
 </head>

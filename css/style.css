@@ -62,7 +62,7 @@ header{padding-top:34px; min-height: 150px;}
 #content2{padding-bottom:50px}
 .pad_left1{padding-left:50px}
 .pad_left2{padding-left:40px}
-.pad_bot1{padding-bottom:8px}
+.pad_bot1{padding-bottom:8px;min-height:70px;}
 .pad_bot2{padding-bottom:40px}
 .marg_right1{margin-right:20px}
 .link1{color:#ccb601;font-style:normal}

@@ -1,17 +1,47 @@
+<link rel="stylesheet" type="text/css" href="css/profile-sertif.css" />
+<link rel='stylesheet' type='text/css' href='css/video.css' />
+<script src="js/jquery-1.7.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/jquery.timelinr-0.9.54.js"></script>
+<script type="text/javascript" src="js/jquery.gallery.js"></script>
+<script src='js/video.js'></script>
+<script>
+	$(function(){
+		$().timelinr({
+			autoPlay: 'true',
+			autoPlayDirection: 'forward'
+		})
+	});
+	$(function() {
+		$('#dg-container').gallery();
+	});
+	$(document).ready(function() {
+		$('video').videoPlayer({
+			'playerWidth' : 1,
+			'videoClass' : 'video'
+		});
+	});
+</script>
+
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">
 		<div class="wrapper row">
 			<section class="col-full">
 				<div class="wrap-col">
-					<h2 class="under">Product Name</h2>
+					<section class="col-4-5">
+						<h2 class="under">Product Name</h2>
+					</section>
+					<section class="col-1-5" style="text-align:end">
+						<h2 class="under"><a href="?<?php echo md5('products'); ?>"><span style="font-size:20px">&laquo; back</span></a></h2>
+					</section>
 				</div>
 			</section>
 		</div>
 		<div class="wrapper row">
 			<section class="col-1-3" >
 				<div class="wrap-col" style="margin:0px 40px 0px 40px">
-					<img src='images/mikei.jpg'/>
+					<img src='images/product/mikei.jpg'/>
 				</div>
 			</section>
 			<section class="col-full">
@@ -104,6 +134,44 @@
 						<li class="product listheader">Free of mycelium, unprocessed mushroom powder, and bulk fillers</li>
 						<li class="product listheader">Hot water processed and concentrated to a refined extract of 16.6:1 ratio (200 mg per capsule)</li>
 					</span>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper row">
+			<section class="col-full" style="margin:0px 40px 0px 40px">
+				<div class="wrapper row">
+					<h6>Product Review</h6>
+				</div>
+				<div class="wrapper row" style="margin-top:5px">
+					<div class="container">
+						<video  width="645" height="307" poster="images/video-poster.jpg" >
+							<source  src="video/movie.webm" type="video/webm">
+							<!-- klo gak support jadi ke youtube -->
+							<embed width="645" height="307" src="http://www.youtube.com/v/XGSy3_Czz8k">
+						</video>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper row" style="margin-top:40px">
+			<section class="col-full" style="margin:0px 40px 0px 40px">
+				<div class="wrapper row">
+					<h6>Product Certificates</h6>
+				</div>
+				<div class="wrapper row" style="margin-top:-30px">
+					<section id="dg-container" class="dg-container" style="height:60%">
+						<div class="dg-wrapper">
+							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image05"><div>General Certificate</div></a>
+							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image06"><div>BP-POM Certificated</div></a>
+							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 2</div></a>
+							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 3</div></a>
+							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 4</div></a>
+						 </div>
+						<nav>
+							<span class="dg-prev">&lt;</span>
+							<span class="dg-next">&gt;</span>
+						</nav>
+					</section>
 				</div>
 			</section>
 		</div>
