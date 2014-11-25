@@ -1,4 +1,23 @@
+/*PROFILE- SLIDE*/
+#slideshow2 { 
 
+	
+	position: absolute;
+left: 50%;
+margin-left: -50%;
+height: 380px;
+width:100%;
+z-index:1;
+	
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
 /*PROFILE*/
 #profile-section{
 height: 400px;
@@ -21,10 +40,11 @@ background-color: rgba(0, 0, 0, 0.69);
 color: white;
 font-size: 14px;
 width: 50%;
-margin-left: 48%;
+margin-left: 45%;
 margin-top:3%;
 z-index:2;
 position:absolute;
+padding: 15px;
 
 }
 /*HISTORY*/

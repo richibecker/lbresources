@@ -15,6 +15,16 @@
 		$(function() {
 			$('#dg-container').gallery();
 			});
+			$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow2');
+},  3000);
 </script>
 		
 
@@ -25,15 +35,17 @@
 <!--PROFILE START-->
 <h2 class="under">Profile</h2>
 	        <section id="profile-section" >
+  
+
+<div id="slideshow2">
+   <div>
             <img id="profile-img" src="images/profile/ruko.jpg" alt="iPhone"  /> 
-            <!--
-   <div id="slider">
-   <ul>
-    <li style="background: #aaa;"> </li>
-    <li style="background: #aaa;"> <img id="profile-img" src="images/profile/h-1.jpg" alt="iPhone"  /> </li>
-  </ul>  
-  </div>
-  -->
+   </div>
+   <div>
+            <img id="profile-img" src="images/profile/h-1.jpg" alt="iPhone"  /> 
+   </div>
+</div>
+
 <div class="copy-container">
 <pre>
 Lbresouces merupakan perusahaan yang bergerak di bidang jasa dan produk. sadsadas asdasdas dasdasdasd sadasdsa sadasd asdasd
