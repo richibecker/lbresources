@@ -5,6 +5,7 @@
 <script src="js/profile.js"></script>
 <script src="js/jquery.timelinr-0.9.54.js"></script>
 <script type="text/javascript" src="js/jquery.gallery.js"></script>
+
 <script> 
 		$(function(){
 			$().timelinr({
@@ -25,17 +26,16 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow2');
 },  3000);
-</script>
-		
 
-      
+</script>
+
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">
 <!--PROFILE START-->
 <h2 class="under">Profile</h2>
 	        <section id="profile-section" >
-  
+ 
 
 <div id="slideshow2">
    <div>
@@ -57,8 +57,8 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 
 </div>
 
-		    		
-	        	
+
+
 		    </section>
 <!--PROFILE END-->
 
@@ -68,13 +68,13 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 				<div class="dg-wrapper">
 					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image05"><div>General Certificate</div></a>
 					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image06"><div>BP-POM Certificated</div></a>
-					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 2</div></a>				
-                    <a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 3</div></a>	
-                    <a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 4</div></a>	
+					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 2</div></a>
+                    <a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 3</div></a>
+                    <a href="#"><img src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 4</div></a>
                  </div>
-				<nav>	
+				<nav>
 					<span class="dg-prev">&lt;</span>
-					<span class="dg-next">&gt;</span>				
+					<span class="dg-next">&gt;</span>
                 </nav>
 			</section>
 <!--SERTIFIKAT END-->
@@ -116,7 +116,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
                 aaaaaaaa. aaaaaaaaaaaaaaa aaaaa aaaaaaaaaa, aaaaaa.
                 aaaaa</p>
 			</li>
-			
+
 		</ul>
 		<div id="grad_left"></div>
 		<div id="grad_right"></div>
