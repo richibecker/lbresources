@@ -3,9 +3,12 @@
 	<article id="content">
 		<div class="wrapper row">
 			<section class="col-full">
-				<div class="wrap-col">
+				<section class="col-4-5">
 					<h2 class="under">News</h2>
-				</div>
+				</section>
+				<section class="col-1-5" style="text-align:end">
+					<h2 class="under"><a href="?<?php echo md5('news'); ?>"><span style="font-size:20px">&laquo; back</span></a></h2>
+				</section>
 			</section>
 		</div>
 		<div class="wrapper row">

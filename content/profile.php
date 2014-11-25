@@ -6,7 +6,7 @@
 <script src="js/jquery.timelinr-0.9.54.js"></script>
 <script type="text/javascript" src="js/jquery.gallery.js"></script>
 
-<script> 
+<script>
 		$(function(){
 			$().timelinr({
 				autoPlay: 'true',
@@ -18,7 +18,7 @@
 			});
 			$("#slideshow > div:gt(0)").hide();
 
-setInterval(function() { 
+setInterval(function() {
   $('#slideshow2 > div:first')
     .fadeOut(1000)
     .next()
@@ -35,14 +35,14 @@ setInterval(function() {
 <!--PROFILE START-->
 <h2 class="under">Profile</h2>
 	        <section id="profile-section" >
- 
+
 
 <div id="slideshow2">
    <div>
              <img id="profile-img" src="images/profile/h-1.jpg" alt="iPhone"  />
    </div>
-   <div>           
-             <img id="profile-img" src="images/profile/ruko.jpg" alt="iPhone"  />  
+   <div>
+             <img id="profile-img" src="images/profile/ruko.jpg" alt="iPhone"  />
    </div>
 </div>
 
@@ -64,7 +64,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 
 <!--SERTIFIKAT START-->
 <h2 class="under">Certificate</h2>
-			<section id="dg-container" class="dg-container">
+			<section id="dg-container" class="dg-container" style="margin:0px 20px 0px 20px">
 				<div class="dg-wrapper">
 					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image05"><div>General Certificate</div></a>
 					<a href="#"><img src="images/profile/sertifikat.jpg" alt="image06"><div>BP-POM Certificated</div></a>
