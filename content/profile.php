@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="css/profile-sertif.css" />
 <link rel="stylesheet" type="text/css" href="css/profile-history.css" />
+
 <script src="js/jquery-1.7.js"></script>
 <script src="js/profile.js"></script>
 <script src="js/jquery.timelinr-0.9.54.js"></script>
@@ -70,7 +71,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 		</ul>
 		<ul id="issues">
 			<li id="2000">
-				<img src="images/profile/1.png" width="256" height="256" />
+				<img src="images/profile/h-1.jpg" width="256" height="256" />
 				<h1>2000</h1>
 				<p>LBResources didirikan di hongkong. Memiliki 1000 karyawan. Didirikan oleh Mr- aaaaaaa aaaaaaaaa aaaaaaaaaaa
                 aaaaaaa aaaaaaaaaa aaaaa aaaaaaaaaa aa aaaaa aaaa aaaaaaaaaaa aaaaaaaaaaa aaaaaaa aaa aaaaaaaaaaaaa, aaaa. aaa
@@ -78,7 +79,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
                 aaaaa</p>
 			</li>
 			<li id="2011">
-				<img src="images/profile/2.png" width="256" height="256" />
+				<img src="images/profile/h-2.jpg" width="256" height="256" />
 				<h1>2011</h1>
 				<p>LBResources didirikan di hongkong. Memiliki 1000 karyawan. Didirikan oleh Mr- aaaaaaa aaaaaaaaa aaaaaaaaaaa
                 aaaaaaa aaaaaaaaaa aaaaa aaaaaaaaaa aa aaaaa aaaa aaaaaaaaaaa aaaaaaaaaaa aaaaaaa aaa aaaaaaaaaaaaa, aaaa. aaa
@@ -86,7 +87,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
                 aaaaa</p>
 			</li>
 			<li id="2014">
-				<img src="images/profile/3.png" width="256" height="256" />
+				<img src="images/profile/h-3.jpg" width="256" height="256" />
 				<h1>2014</h1>
 				<p>LBResources didirikan di hongkong. Memiliki 1000 karyawan. Didirikan oleh Mr- aaaaaaa aaaaaaaaa aaaaaaaaaaa
                 aaaaaaa aaaaaaaaaa aaaaa aaaaaaaaaa aa aaaaa aaaa aaaaaaaaaaa aaaaaaaaaaa aaaaaaa aaa aaaaaaaaaaaaa, aaaa. aaa

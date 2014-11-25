@@ -6,21 +6,25 @@
 				<section class="col-full">
 					<div class="wrap-col">
 						<h2 class="under">Expertise in Execution of Businesses - Converting Plans to Reality!</h2>
-						<!--
+						
 						<div class="wrapper">
 							<figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
 							<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 							<p>
-									bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla <a href="#"class="link1">Read More</a></p>
+									bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+                                  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                                  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  
+                                    <a href="#"class="link1">Read More</a></p>
 						</div>
-						-->
+						
+                        <!--
 						<div class="container">
 						<video  width="645" height="307" poster="images/video-poster.jpg" >
-						<source  src="video/movie.webm" type="video/webm">
+						<source  src="video/movie.webm" type="video/webm">-->
 						<!-- klo gak support jadi ke youtube -->
-						<embed width="645" height="307" src="http://www.youtube.com/v/XGSy3_Czz8k">
+						 <!--<embed width="645" height="307" src="http://www.youtube.com/v/XGSy3_Czz8k">
 						</video>
-						</div>
+						</div>-->
 
 					</div>
 				</section>
