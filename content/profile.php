@@ -39,10 +39,10 @@ setInterval(function() {
 
 <div id="slideshow2">
    <div>
-            <img id="profile-img" src="images/profile/ruko.jpg" alt="iPhone"  /> 
+             <img id="profile-img" src="images/profile/h-1.jpg" alt="iPhone"  />
    </div>
-   <div>
-            <img id="profile-img" src="images/profile/h-1.jpg" alt="iPhone"  /> 
+   <div>           
+             <img id="profile-img" src="images/profile/ruko.jpg" alt="iPhone"  />  
    </div>
 </div>
 
