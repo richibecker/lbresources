@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/imagehover.css" />
 <div class="main zerogrid">
 <!-- product content -->
 	<article id="content">
@@ -45,13 +46,18 @@
 				</div>
 				<div class="wrapper">
 					<h3><span class="dropcap">6</span>Product name</h3>
-					<figure><a href="?<?php echo md5('detailproduct'); ?>"><img src="images/product/mikei.jpg" alt=""></a></figure>
-					<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .</p>
-					<a href="?<?php echo md5('detailproduct'); ?>" class="link1">Read More</a>
+
+					<div class="view third-effect">
+						<a href="?<?php echo md5('detailproduct'); ?>">
+							<figure><img src="images/product/mikei.jpg" alt=""></figure>
+							<div class="mask"></div>
+						</a>
+					</div>
+					<p class="pad_bot1" style="margin-left:10px">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .</p>
+					<a href="?<?php echo md5('detailproduct'); ?>" class="link1" style="margin-left:10px">Read More</a>
 				</div>
 			</div>
 			</section>
 		</div>
-
 	</article>
 </div>
