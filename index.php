@@ -94,6 +94,9 @@
 			else if(isset($_GET[md5('services')])){
 				echo 'page3';
 			}
+			else if(isset($_GET[md5('sertif')])){
+				echo 'page4';
+			}
 			else if(isset($_GET[md5('products')])){
 				echo 'page4';
 			}
@@ -164,6 +167,9 @@
 			}
 			else if(isset($_GET[md5('services')])){
 				include("content/services.php");
+			}
+			else if(isset($_GET[md5('sertif')])){
+				include("content/sertif.php");
 			}
 			else if(isset($_GET[md5('products')])){
 				include("content/products.php");

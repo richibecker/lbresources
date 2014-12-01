@@ -31,7 +31,7 @@
 
 					<li id="nav4" class="<?php if(isset($_GET[md5('products')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('products'); ?>">Products<span>The best</span></a>
                         <ul>
-							<li><a href="?<?php echo md5('products'); ?>">Certificate</a></li>
+							<li><a href="?<?php echo md5('sertif'); ?>">Certificate</a></li>
 							<li><a href="?<?php echo md5('products'); ?>">Health &amp; Care Products</a></li>
                             <li><a href="?<?php echo md5('products'); ?>">Solar Cell</a></li>
                             <li><a href="?<?php echo md5('products'); ?>">Home Appliance</a></li>

@@ -62,7 +62,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 		    </section>
 <!--PROFILE END-->
 
-<!--SERTIFIKAT START-->
+<!--SERTIFIKAT START
 <h2 class="under">Certificate</h2>
 			<section id="dg-container" class="dg-container" style="margin:0px 20px 0px 20px">
 				<div class="dg-wrapper">
@@ -77,10 +77,10 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 					<span class="dg-next">&gt;</span>
                 </nav>
 			</section>
-<!--SERTIFIKAT END-->
+SERTIFIKAT END-->
 
 
-   <!--HISTORY START-->
+   <!--HISTORY START
 <section>
 
 	<div id="timeline">
@@ -124,7 +124,7 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 		<a href="#" id="prev">-</a>
 	</div>
     </section>
-<!--HISTORY END-->
+HISTORY END-->
 
 	</article>
 
