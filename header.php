@@ -13,22 +13,30 @@
 
 					<li id="nav2" class="<?php if(isset($_GET[md5('profile')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('profile'); ?>">About<span>Get to know us</span></a>
 						<ul>
-							<li><a href="?<?php echo md5('profile'); ?>" >Profile</a></li>
-							<li><a href="?<?php echo md5('news'); ?>">Portfolio</a></li>
+							<li><a href="?<?php echo md5('profile'); ?>" >Executives Team</a></li>
+							<li><a href="?<?php echo md5('portfolio'); ?>">Business Portfolio</a></li>
 							<li><a href="?<?php echo md5('news'); ?>">News</a></li>
 						</ul>
                     </li>
 					<li id="nav3" class="<?php if(isset($_GET[md5('services')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('services'); ?>">Services<span>for you</span></a>
                         <ul>
-							<li><a href="?<?php echo md5('services'); ?>">Shipping</a></li>
-							<li><a href="?<?php echo md5('services'); ?>">Coal Mining</a></li>
+							<li><a href="?<?php echo md5('services'); ?>">Logistic</a></li>
+							<li><a href="?<?php echo md5('services'); ?>">Commodities Supply Management</a></li>
+                            <li><a href="?<?php echo md5('services'); ?>">Investment Management</a></li>
+                            <li><a href="?<?php echo md5('services'); ?>">Projects Management</a></li>
+                            <li><a href="?<?php echo md5('services'); ?>">Distribution</a></li>
+                            <li><a href="?<?php echo md5('services'); ?>">International Representation</a></li>
 						</ul>
                     </li>
 
 					<li id="nav4" class="<?php if(isset($_GET[md5('products')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('products'); ?>">Products<span>The best</span></a>
                         <ul>
-							<li><a href="?<?php echo md5('products'); ?>">Supplement</a></li>
-							<li><a href="?<?php echo md5('products'); ?>">Solar Cell</a></li>
+							<li><a href="?<?php echo md5('products'); ?>">Certificate</a></li>
+							<li><a href="?<?php echo md5('products'); ?>">Health &amp; Care Products</a></li>
+                            <li><a href="?<?php echo md5('products'); ?>">Solar Cell</a></li>
+                            <li><a href="?<?php echo md5('products'); ?>">Home Appliance</a></li>
+                            <li><a href="?<?php echo md5('products'); ?>">House Hold Products</a></li>
+                            <li><a href="?<?php echo md5('products'); ?>">Mineral Commodities</a></li>
                         </ul>
                     </li>
 					<li id="nav5" class="<?php if(isset($_GET[md5('contacts')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('contacts'); ?>">Contacts<span>Our Address</span></a></li>

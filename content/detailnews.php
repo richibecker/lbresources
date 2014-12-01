@@ -12,19 +12,19 @@
 			</section>
 		</div>
 		<div class="wrapper row">
-			<section class="col-2-3" >
+			<section class="col-full" >
 				<div class="wrap-col" style="margin:0px 40px 0px 40px;">
 					<img  src='images/news/news-1.jpg'  />
 				</div>
 			</section>
-			<section class="col-full">
+			<section class="col-full"  style="margin:0px 40px 0px 40px">
 				<div class="wrap-col">
-					<br/>
-					<p>
-						<b>Date:</b><br/>
-						20 / November / 2014<br/><br/>
-						<b>Location:</b><br/>
-						Gedung LBR.<br/><br/>
+
+					<p style="">
+						<b>Date:</b>
+						20 / November / 2014 &nbsp;&nbsp;&nbsp;&nbsp;
+						<b>Location:</b>
+						Gedung LBR.
 
 					</p>
 				</div>

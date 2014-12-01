@@ -88,6 +88,9 @@
 			else if(isset($_GET[md5('profile')])){
 				echo 'page6';
 			}
+			else if(isset($_GET[md5('portfolio')])){
+				echo 'page6';
+			}
 			else if(isset($_GET[md5('services')])){
 				echo 'page3';
 			}
@@ -150,14 +153,14 @@
 			else if(isset($_GET[md5('profile')])){
 				include("content/profile.php");
 			}
+			else if(isset($_GET[md5('portfolio')])){
+				include("content/portfolio.php");
+			}
 			else if(isset($_GET[md5('news')])){
 				include("content/news.php");
 			}
 			else if(isset($_GET[md5('detailnews')])){
 				include("content/detailnews.php");
-			}
-			else if(isset($_GET[md5('detailnews2')])){
-				include("content/detailnews2.php");
 			}
 			else if(isset($_GET[md5('services')])){
 				include("content/services.php");

@@ -74,42 +74,42 @@
 				<h2>Services</h2>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">A</span>Shipping<span>Services</span></h3>
+						<h3><span class="dropcap">A</span>Logistic</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">B</span>Coal<span>Mining</span></h3>
+						<h3><span class="dropcap">B</span>Commodities Supply<span> Management</span></h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">C</span>Financial<span>Consultant</span></h3>
+						<h3><span class="dropcap">C</span>Investment<span>Management</span></h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">A</span>Shipping<span>Services</span></h3>
+						<h3><span class="dropcap">A</span>Projects<span>Management</span></h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">B</span>Coal<span>Mining</span></h3>
+						<h3><span class="dropcap">B</span>Distribution</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">C</span>Financial<span>Consultant</span></h3>
+						<h3><span class="dropcap">C</span>International<span>Representation</span></h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>

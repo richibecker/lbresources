@@ -93,7 +93,7 @@
 /* transition animation on hover */
 
 #colorNav li:hover ul{
-	max-height:200px; /* Increase when adding more dropdown items */
+	max-height:inherit; /* Increase when adding more dropdown items */
 }
 
 

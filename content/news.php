@@ -14,7 +14,7 @@
 				<div class="wrapper pad_bot2">
 					<figure class="left marg_right1"><img src="images/page2_img2.jpg" alt=""></figure>
 					<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
-					<a href="?<?php echo md5('detailnews2'); ?>" class="link1">Read More</a>
+					<a href="?<?php echo md5('detailnews'); ?>" class="link1">Read More</a>
 				</div>
 				<h5><span class="dropcap"><strong>21</strong><span>06</span></span>News Title 3</h5>
 				<div class="wrapper pad_bot2">

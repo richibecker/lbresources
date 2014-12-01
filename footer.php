@@ -7,10 +7,10 @@
 			<div class="wrap-col">
 				<h4>Why Us?</h4>
 				<ul class="list1">
-					<li><a href="#">tag satu</a></li>
-					<li><a href="#">tag dua</a></li>
-					<li><a href="#">tag tiga</a></li>
-					<li><a href="#">tag empat</a></li>
+					<li><a href="#">Experience Team</a></li>
+					<li><a href="#">Strong Business Association</a></li>
+					<li><a href="#">International Affiliation</a></li>
+					<li><a href="#">Result Focus</a></li>
 				</ul>
 			</div>
 			</section>
