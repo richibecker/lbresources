@@ -31,7 +31,7 @@
 							<li><a href="?<?php echo md5('products'); ?>">Solar Cell</a></li>
                         </ul>
                     </li>
-					<li id="nav5" class="<?php if(isset($_GET[md5('contacts')]) or isset($_GET[md5('location')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('contacts'); ?>">Contacts<span>Our Address</span></a></li>
+					<li id="nav5" class="<?php if(isset($_GET[md5('contacts')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('contacts'); ?>">Contacts<span>Our Address</span></a></li>
 				</ul>
 			</nav>
 		</div>

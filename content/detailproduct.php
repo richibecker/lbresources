@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/profile-sertif.css" />
 <link rel='stylesheet' type='text/css' href='css/video.css' />
 <script src="js/jquery-1.7.js"></script>
 <script src="js/profile.js"></script>
@@ -6,15 +5,6 @@
 <script type="text/javascript" src="js/jquery.gallery.js"></script>
 <script src='js/video.js'></script>
 <script>
-	$(function(){
-		$().timelinr({
-			autoPlay: 'true',
-			autoPlayDirection: 'forward'
-		})
-	});
-	$(function() {
-		$('#dg-container').gallery();
-	});
 	$(document).ready(function() {
 		$('video').videoPlayer({
 			'playerWidth' : 1,
@@ -40,11 +30,11 @@
 		</div>
 		<div class="wrapper row">
 			<section class="col-1-3" >
-				<div class="wrap-col" style="margin:0px 40px 0px 40px">
+				<div class="wrap-col" style="margin:25px 20px 0px 40px">
 					<img src='images/product/mikei.jpg'/>
 				</div>
 			</section>
-			<section class="col-full">
+			<section class="col-2-3">
 				<div class="wrap-col">
 					<h6>Product Features</h6>
 					<br/>
@@ -55,6 +45,9 @@
 						Take 1 capsule daily or as recommended by a healthcare practitioner.<br/><br/>
 						<b>Product of Japan</b><br/>
 						Manufacturer: Nikkei Co. (Gunma, Japan)<br/><br/>
+						<b>Prices : </b>
+						<a href="?<?php echo md5('contacts'); ?>">Inquiries</a><br/><br/>
+						For more info, please visit this <a href="#"><b>link</b></a>
 					</p>
 				</div>
 			</section>
@@ -155,24 +148,7 @@
 		</div>
 		<div class="wrapper row" style="margin-top:40px">
 			<section class="col-full" style="margin:0px 40px 0px 40px">
-				<div class="wrapper row">
-					<h6>Product Certificates</h6>
-				</div>
-				<div class="wrapper row" style="margin-top:-30px">
-					<section id="dg-container" class="dg-container" style="height:60%">
-						<div class="dg-wrapper">
-							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image05"><div>General Certificate</div></a>
-							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image06"><div>BP-POM Certificated</div></a>
-							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 2</div></a>
-							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 3</div></a>
-							<a href="#"><img style="height:80%" src="images/profile/sertifikat.jpg" alt="image07"><div>General Certificate 4</div></a>
-						 </div>
-						<nav>
-							<span class="dg-prev">&lt;</span>
-							<span class="dg-next">&gt;</span>
-						</nav>
-					</section>
-				</div>
+
 			</section>
 		</div>
 	</article>
