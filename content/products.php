@@ -4,7 +4,7 @@
 	<article id="content">
 		<div class="wrapper">
 			<h2 class="under">Supplement</h2>
-            
+
 			<section class="col-1-3">
 			<div class="wrap-col">
 				<div class="wrapper pad_bot2">
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 			</section>
-            
+
 			<section class="col-1-3">
 			<div class="wrap-col">
 				<div class="wrapper pad_bot2">

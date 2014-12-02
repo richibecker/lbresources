@@ -20,12 +20,12 @@
                     </li>
 					<li id="nav3" class="<?php if(isset($_GET[md5('services')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('services'); ?>">Services<span>for you</span></a>
                         <ul>
-							<li><a href="?<?php echo md5('services'); ?>">Logistic</a></li>
-							<li><a href="?<?php echo md5('services'); ?>">Commodities Supply Management</a></li>
-                            <li><a href="?<?php echo md5('services'); ?>">Investment Management</a></li>
-                            <li><a href="?<?php echo md5('services'); ?>">Projects Management</a></li>
-                            <li><a href="?<?php echo md5('services'); ?>">Distribution</a></li>
-                            <li><a href="?<?php echo md5('services'); ?>">International Representation</a></li>
+							<li><a href="?<?php echo md5('detailservices'); ?>">Logistic</a></li>
+							<li><a href="?<?php echo md5('detailservices'); ?>">Commodities Supply Management</a></li>
+                            <li><a href="?<?php echo md5('detailservices'); ?>">Investment Management</a></li>
+                            <li><a href="?<?php echo md5('detailservices'); ?>">Projects Management</a></li>
+                            <li><a href="?<?php echo md5('detailservices'); ?>">Distribution</a></li>
+                            <li><a href="?<?php echo md5('detailservices'); ?>">International Representation</a></li>
 						</ul>
                     </li>
 

@@ -51,8 +51,8 @@
 								October 20, 2014</span>
 							</li>
 							<li>
-								<div>
-									bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+									bla bla b
+								<div>la bla bla bla bla bla bla bla bla bla bla bla bla bla
 									<a href="#"class="link1">Read More</a>
 								</div>
 								<span><strong class="color1">New Title 3</strong> <br>
@@ -74,42 +74,44 @@
 				<h2>Services</h2>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">A</span>Logistic</h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Logistic',' ')*3)?>px">
+							<span class="dropcap">A</span>Logistic
+						</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">B</span>Commodities Supply<span> Management</span></h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Commodities Supply Management',' ')*3)?>px"><span class="dropcap">B</span>Commodities Supply Management</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">C</span>Investment<span>Management</span></h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Investment Management',' ')*3)?>px"><span class="dropcap">C</span>Investment Management</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">A</span>Projects<span>Management</span></h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Projects Management',' ')*3)?>px"><span class="dropcap">D</span>Projects Management</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">B</span>Distribution</h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Distribution',' ')*3)?>px"><span class="dropcap">E</span>Distribution</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3><span class="dropcap">C</span>International<span>Representation</span></h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('International Representation',' ')*3)?>px"><span class="dropcap">F</span>International Representation</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
