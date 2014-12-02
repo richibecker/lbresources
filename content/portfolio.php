@@ -7,7 +7,7 @@
     
 <div class="main zerogrid" >
 <!-- content -->
-<h2 class="under">Porfolio From Time to Time</h2>
+<h2 class="under">Projects From Time to Time</h2>
 
 
 	<section id="cd-timeline" class="cd-container">

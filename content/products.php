@@ -4,6 +4,7 @@
 	<article id="content">
 		<div class="wrapper">
 			<h2 class="under">Supplement</h2>
+            
 			<section class="col-1-3">
 			<div class="wrap-col">
 				<div class="wrapper pad_bot2">
@@ -36,6 +37,7 @@
 				</div>
 			</div>
 			</section>
+            
 			<section class="col-1-3">
 			<div class="wrap-col">
 				<div class="wrapper pad_bot2">
@@ -50,7 +52,7 @@
 					<div class="view third-effect">
 						<a href="?<?php echo md5('detailproduct'); ?>">
 							<figure><img src="images/product/mikei.jpg" alt=""></figure>
-							<div class="mask"></div>
+							<div class="mask"><a href="?<?php echo md5('detailproduct'); ?>" class="info">Read More</a></div>
 						</a>
 					</div>
 					<p class="pad_bot1" style="margin-left:10px">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .</p>

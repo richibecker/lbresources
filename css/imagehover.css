@@ -12,6 +12,7 @@
 }
 
 .view .mask, .view .content {
+
    width: 100%;
    position: absolute;
    overflow: hidden;
@@ -25,13 +26,14 @@
 }
 
 .view a.info {
-   background:url(../img/link.png) center no-repeat;
+   background:url(../images/product/link.png) center no-repeat;
    display: inline-block;
    text-decoration: none;
    padding:0;
    text-indent:-9999px;
    width:20px;
    height:20px;
+   
 }
 
 
@@ -52,10 +54,11 @@
 
 .third-effect:hover .mask {
    opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
+   border:150px solid rgba(0,0,0,0.7);
 }
 
 .third-effect:hover a.info {
    opacity:1;
    transition-delay: 0.3s;
+   margin: 0px 0px 0px -20px;
 }

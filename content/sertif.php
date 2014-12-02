@@ -1,34 +1,82 @@
-
-	<link rel="stylesheet" href="css/sertif-lightbox.css">
-    <script src="js/jquery-1.7.js"></script>
-	<script src="js/sertif-lightbox.js"></script>
-
-    
+    <link href="css/sertif/sertif-styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/sertif/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="js/sertif/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/sertif/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/sertif/jquery.isotope.load_home.js" type="text/javascript"></script>
+    <script src="js/sertif/jquery.isotope.perfectmasonry.js"></script>
+    <script src="js/sertif/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/sertif/image-hover.js" type="text/javascript"></script>
+    <script src="js/sertif/preloader.js" type="text/javascript"></script>
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">
 
-<section id="examples" class="examples-section">
-		<div class="container">
-
 <h2 class="under">Certificate</h2>
 
-			<div class="image-row">
-				<div class="image-set">
-					<a class="example-image-link" href="images/sertif/demopage/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-                    <img class="example-image" src="images/sertif//demopage/thumb-3.jpg" alt=""/>
-                    </a>
-					<a class="example-image-link" href="images/sertif/demopage/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
-                    <img class="example-image" src="images/sertif//demopage/thumb-4.jpg" alt="" />
-                    </a>
-					<a class="example-image-link" href="images/sertif/demopage/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
-                    <img class="example-image" src="images/sertif/demopage/thumb-5.jpg" alt="" />
-                    </a>
-					<a class="example-image-link" href="images/sertif/demopage/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/sertif/demopage/thumb-6.jpg" alt="" /></a>
-				</div>
-			</div>
-		</div>
-	</section>
+
+  <div id="content">
+    <ul id="container">
+      <li class="element home"><!--dalem gede--> <a href="images/sertif/pic03.jpg" title="" data-fancybox-group="group1" class="popup">
+        <div class="images"><!--luar thumbnail 303x202--> <img src="images/sertif/pic08.jpg" alt="" />
+          <div class="title">
+            <div class="title-wrap">
+              <h3><span>ISO 9000-1000</span> </h3>
+            </div>
+          </div>
+          <div class="subtitle">
+            <div class="subtitle-wrap">
+              <p> <span>Since 2010</span> </p>
+            </div>
+          </div>
+        </div>
+        </a> </li>
+ 
+              <li class="element home"><!--dalem gede--> <a href="images/sertif/pic03.jpg" title="" data-fancybox-group="group1" class="popup">
+        <div class="images"><!--luar thumbnail 303x202--> <img src="images/sertif/pic08.jpg" alt="" />
+          <div class="title">
+            <div class="title-wrap">
+              <h3><span>ISO 9000-1000</span> </h3>
+            </div>
+          </div>
+          <div class="subtitle">
+            <div class="subtitle-wrap">
+              <p> <span>Since 2010</span> </p>
+            </div>
+          </div>
+        </div>
+        </a> </li>
+              <li class="element home"><!--dalem gede--> <a href="images/sertif/pic03.jpg" title="" data-fancybox-group="group1" class="popup">
+        <div class="images"><!--luar thumbnail 303x202--> <img src="images/sertif/pic08.jpg" alt="" />
+          <div class="title">
+            <div class="title-wrap">
+              <h3><span>ISO 9000-1000</span> </h3>
+            </div>
+          </div>
+          <div class="subtitle">
+            <div class="subtitle-wrap">
+              <p> <span>Since 2010</span> </p>
+            </div>
+          </div>
+        </div>
+        </a> </li>
+              <li class="element home"><!--dalem gede--> <a href="images/sertif/pic03.jpg" title="" data-fancybox-group="group1" class="popup">
+        <div class="images"><!--luar thumbnail 303x202--> <img src="images/sertif/pic08.jpg" alt="" />
+          <div class="title">
+            <div class="title-wrap">
+              <h3><span>ISO 9000-1000</span> </h3>
+            </div>
+          </div>
+          <div class="subtitle">
+            <div class="subtitle-wrap">
+              <p> <span>Since 2010</span> </p>
+            </div>
+          </div>
+        </div>
+        </a> </li>
+    </ul>
+  </div>
+
+
 
 	</article>
 
