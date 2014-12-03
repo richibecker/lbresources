@@ -57,9 +57,31 @@ sadsadsad asdsad sadasdsa asdasd sadasdas as asd aasda  sadsadasdasdas
 
 </div>
 
-
-
 		    </section>
+            
+<h2 class="under">Director</h2>       
+			<section class="col-1-3" >
+			<div class="director">
+					<img src="images/ceo.jpg"></img>
+			</div>
+			</section>
+			<section class="col-2-3">
+            <div class="director-col">
+            		<h6>Uray Andra</h6>
+                    <hr />
+
+                    <a class="director-title">Director</a>
+					<br/><br/>
+					<p class="director-p">
+						<b>Born:</b><br/>
+						12 Jan 1990<br/><br/>
+						<b>Experience:</b><br/>
+						aaaa aa aaaaaaaaaa aaaa aaa<br/><br/>
+						<b>About</b><br/>
+						aaaa aaa aaaaaaaaaa aaa<br/><br/>
+					</p>
+			</div>
+  			</section>
 <!--PROFILE END-->
 
 <!--SERTIFIKAT START

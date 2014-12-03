@@ -1,9 +1,17 @@
-
+<link rel='stylesheet' type='text/css' href='css/video.css' />
     <link rel="stylesheet" href="css/portfolio.css">
 	<script src="js/modernizr.js"></script>
 	<script src="js/jquery-1.7.js"></script>
     <script src="js/portfolio.js"></script>
-
+<script src='js/video.js'></script>
+<script>
+	$(document).ready(function() {
+		$('video').videoPlayer({
+			'playerWidth' : 1,
+			'videoClass' : 'video'
+		});
+	});
+</script>
     
 <div class="main zerogrid" >
 <!-- content -->
