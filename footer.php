@@ -18,10 +18,9 @@
 			<div class="wrap-col">
 				<h4>Address</h4>
 				<ul class="address">
-					<li><span>Country:</span>Indonesia</li>
-					<li><span>City:</span>Jakarta</li>
-					<li><span>Phone:</span>021 - 1234567</li>
-					<li><span>Email:</span><a href="mailto:">mail@mail.com</a></li>
+					<li>Ruko Prominence, Jalur Sutera 38F/1, Alam Sutera, Tangerang</li>
+					<li><span>Tel:</span>(62) 21 3003 2291</li>
+					<li><span>Fax:</span>(62) 21 3003 2293</li>
 				</ul>
 			</div>
 			</section>
@@ -32,7 +31,7 @@
 					<li><a href="#"><img src="images/icon1.jpg" alt="">Facebook</a></li>
 					<li><a href="#"><img src="images/icon2.jpg" alt="">Twitter</a></li>
 					<li><a href="#"><img src="images/icon3.jpg" alt="">LinkedIn</a></li>
-					<li><a href="#"><img src="images/icon4.jpg" alt="">Delicious</a></li>
+					<li><a href="#"><img src="images/icon5.png" alt="">Skype</a></li>
 				</ul>
 			</div>
 			</section>

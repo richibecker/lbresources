@@ -26,7 +26,7 @@
 					<div class="wrapper pad_bot1">
 						<figure class="left marg_right1"><img src="images/page3_img3.gif" alt=""></figure>
 						<h6><a href="?<?php echo md5('detailservices'); ?>">Commodities Supply Management</a></h6>
-						<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla .</p>
+						<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
 					</div>
 					<div class="wrapper">
 						<figure class="left marg_right1"><img src="images/page3_img4.gif" alt=""></figure>
