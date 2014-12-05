@@ -83,7 +83,7 @@
 				</section>
 				<section class="col-1-3">
 					<div class="wrap-col">
-						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Commodities Supply Management aaaaa aa',' ')*3)?>px"><span class="dropcap">B</span>Commodities Supply Management</h3>
+						<h3 style="height:65px;font-size:<?php echo 26-(substr_count('Commodities Supply Management',' ')*3)?>px"><span class="dropcap">B</span>Commodities Supply Management</h3>
 						<p class="pad_bot1">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 						<a href="#" class="link1">Read More</a>
 					</div>
