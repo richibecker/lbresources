@@ -138,7 +138,8 @@
 				<div class="wrapper row" style="margin-top:5px">
 					<div class="container">
 						<video  width="645" height="307" poster="images/video-poster.jpg" >
-							<source  src="video/movie.webm" type="video/webm">
+							<!--<source  src="video/movie.webm" type="video/webm">-->
+                            <source  src="video/RED_REISHI_2.mp4" >
 							<!-- klo gak support jadi ke youtube -->
 							<embed width="645" height="307" src="http://www.youtube.com/v/XGSy3_Czz8k">
 						</video>
