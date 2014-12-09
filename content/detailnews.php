@@ -60,5 +60,15 @@
 				</div>
 			</section>
 		</div>
+
+		<div class="wrapper row">
+			<section class="col-full">
+				<div class="wrap-col"style="text-align:justify">
+					<p>
+						<b style="listheader">Source: </b>  http://www.detik.com
+					</p>
+				</div>
+			</section>
+		</div>
 	</article>
 </div>

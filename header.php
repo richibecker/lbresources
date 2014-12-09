@@ -11,14 +11,14 @@
 				<ul>
 					<li id="nav1" class="<?php if(empty($_GET)) echo 'active'; else echo '';?>"><a  href="index.php">Home<span>Welcome!</span></a></li>
 
-					<li id="nav2" class="<?php if(isset($_GET[md5('profile')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('profile'); ?>">About<span>Get to know us</span></a>
+					<li id="nav2" class="<?php if(isset($_GET[md5('profile')]) || isset($_GET[md5('portofolio')]) || isset($_GET[md5('news')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('profile'); ?>">About<span>Get to know us</span></a>
 						<ul>
 							<li><a href="?<?php echo md5('profile'); ?>" >Executives Team</a></li>
 							<li><a href="?<?php echo md5('portfolio'); ?>">Business Portfolio</a></li>
 							<li><a href="?<?php echo md5('news'); ?>">News</a></li>
 						</ul>
                     </li>
-					<li id="nav3" class="<?php if(isset($_GET[md5('services')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('services'); ?>">Services<span>for you</span></a>
+					<li id="nav3" class="<?php if(isset($_GET[md5('services')]) || isset($_GET[md5('detailservices')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('services'); ?>">Services<span>for you</span></a>
                         <ul>
 							<li><a href="?<?php echo md5('detailservices'); ?>">Logistic</a></li>
 							<li><a href="?<?php echo md5('detailservices'); ?>">Commodities Supply Management</a></li>
@@ -29,7 +29,7 @@
 						</ul>
                     </li>
 
-					<li id="nav4" class="<?php if(isset($_GET[md5('products')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('products'); ?>">Products<span>The best</span></a>
+					<li id="nav4" class="<?php if(isset($_GET[md5('sertif')]) || isset($_GET[md5('products')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('sertif'); ?>">Products<span>The best</span></a>
                         <ul>
 							<li><a href="?<?php echo md5('sertif'); ?>">Certificate</a></li>
 							<li><a href="?<?php echo md5('products'); ?>">Health &amp; Care Products</a></li>
