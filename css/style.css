@@ -134,23 +134,17 @@ footer a:hover{}
 .listheader{padding-left:20px;padding-bottom:5px}
 .listchild{padding-left:60px;list-style-type: circle;padding-bottom:5px}
 
-.director{
-min-height:500px;
-}
-.director-col{
-margin: 0px 0px 0px 5%;
-}
-.director-title{
+.profile{
+margin-top:15px;
 text-decoration:none;
-font-size:18px;
-font-style: italic;
-font-family: Arial, sans-serif;
-font-stretch: semi-expanded;
-line-height: 0px;
-}
-.director-p{
-text-decoration:none;
-font-size:13px;
 font-style: normal;
 font-family: Arial, sans-serif;
+}
+.profile-title{
+font-weight:bold;
+font-size:14pt;
+}
+.under {
+border-bottom: 1px solid #e5e5e5;
+margin-bottom: 25px;
 }
