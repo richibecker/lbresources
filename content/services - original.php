@@ -1,10 +1,6 @@
     <link href="css/service-bootstrap.min.css" rel="stylesheet">
     <link href="css/service-main.css" rel="stylesheet">
-    	  	<link rel="stylesheet" href="css/reveal.css">	
     
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
-		<script type="text/javascript" src="js/jquery.reveal.js"></script>
-
 <div class="main zerogrid">
 <!-- content -->
 	<article id="content">
@@ -26,7 +22,7 @@
                          aaaaaa aaaaaaaaaaaaa aaaa
 					</div> 
                     <li class="plan-action">
-                    	<a href="?id=1" class="btn btn-danger btn-lg" data-reveal-id="myModal" >Detail</a>
+                        <a href="?<?php echo md5('detailservices'); ?>" class="btn btn-danger btn-lg">Detail</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +42,7 @@
 					</div> 
 
                     <li class="plan-action">
-                     <a href="?id=2" class="btn btn-danger btn-lg" data-reveal-id="myModal2" >Detail</a>
+                     <a href="?<?php echo md5('detailservices'); ?>" class="btn btn-danger btn-lg">Detail</a>
                  </li>
              </ul>
          </div>
@@ -122,7 +118,7 @@
 					</div> 
 
             <li class="plan-action">
-             <a href="?<?php echo md5('detailservices'); ?>" class="btn btn-danger btn-lg" data-reveal-id="myModal">Detail</a>
+             <a href="?<?php echo md5('detailservices'); ?>" class="btn btn-danger btn-lg">Detail</a>
          </li>
      </ul>
  	</div>        
@@ -134,16 +130,4 @@
     
 </div>
 
-
-<div id="myModal" class="reveal-modal">
-     <h1>Modal Title</h1>
-     <p>Any content could go in here.</p>
-     <a class="close-reveal-modal">&#215;</a>
-</div>
-
-<div id="myModal2" class="reveal-modal">
-     <h1>Modal Title</h1>
-     <p>Any content could go in here.22</p>
-     <a class="close-reveal-modal">&#215;</a>
-</div>
 

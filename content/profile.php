@@ -1,22 +1,12 @@
-<link rel="stylesheet" type="text/css" href="css/profile-sertif.css" />
+
 <link rel="stylesheet" type="text/css" href="css/profile-history.css" />
 
 <script src="js/jquery-1.7.js"></script>
-<script src="js/profile.js"></script>
-<script src="js/jquery.timelinr-0.9.54.js"></script>
-<script type="text/javascript" src="js/jquery.gallery.js"></script>
+
+
+
 
 <script>
-		$(function(){
-			$().timelinr({
-				autoPlay: 'true',
-				autoPlayDirection: 'forward'
-			})
-		});
-		$(function() {
-			$('#dg-container').gallery();
-			});
-			$("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
   $('#slideshow2 > div:first')
