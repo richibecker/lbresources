@@ -12,7 +12,7 @@
 					<li id="nav1" class="<?php if(empty($_GET)) echo 'active'; else echo '';?>"><a  href="index.php">Home<span>Welcome!</span></a></li>
 
 					<li id="nav2" class="<?php if(isset($_GET[md5('profile')]) || isset($_GET[md5('portofolio')]) || isset($_GET[md5('news')])) echo 'active'; else echo '';?>"><a href="?<?php echo md5('profile'); ?>">About<span>Get to know us</span></a>
-						<ul>
+                    	<ul>
 							<li><a href="?<?php echo md5('profile'); ?>" >Executives Team</a></li>
 							<li><a href="?<?php echo md5('portfolio'); ?>">Business Portfolio</a></li>
 							<li><a href="?<?php echo md5('news'); ?>">News</a></li>
